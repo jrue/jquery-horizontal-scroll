@@ -81,7 +81,9 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
       $(el).find(".sticky-holder").css({
         "height": base.maxHeight,
         "width": $(el).width()
-      })
+      });
+      
+      $(el).css("margin-top", base.maxHeight);
       
       base.topScrollTrigger = $(el).find('.strip-holder').offset().top + ($(el).find('.strip-holder').height()/2);
       base.bottomScrollTrigger = $(el).offset().top + $(el).height() - ($(el).find('.strip-holder').height()/2);
@@ -99,6 +101,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
       //set properties of container
       $(el).css({
         "height": base.options.containerHeight,
+        "margin-top": base.options.itemsHeight,
         "position": "relative",
         "padding": 0,
         "overflow":"visible"
