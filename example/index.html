@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <title>jQuery Horizontal Scroll Swap Demo</title>
+  </head>
+  <body>
+    
+    
+    <header class="vh-100 d-flex flex-column align-items-center justify-content-center">
+      <h1 class="text-center">Hello, world!<br>Scroll to see horiztonal scroll</h1>
+    </header>
+
+    <!-- Example of a horizontal video -->
+    <div class="horizontal-scroll">
+      <div class="example">
+        <img src="images/desk-1.jpg" class="img-fluid" alt="desk">
+        <p>Example caption</p>
+      </div>
+      <div class="example">
+        <img src="images/desk-2.jpg" class="img-fluid" alt="desk">
+        <p>Example caption</p>
+      </div>
+      <div class="example">
+        <img src="images/desk-3.jpg" class="img-fluid" alt="desk">
+        <p>Example caption</p>
+      </div>
+      <div class="example">
+        <img src="images/desk-4.jpg" class="img-fluid" alt="desk">
+        <p>Example caption</p>
+      </div>
+      <div class="example">
+        <img src="images/desk-5.jpg" class="img-fluid" alt="desk">
+        <p>Example caption</p>
+      </div>
+      <div class="example">
+        <img src="images/desk-6.jpg" class="img-fluid" alt="desk">
+        <p>Example caption</p>
+      </div>
+    </div>
+    
+    
+    <footer class="vh-100 p-5">Nothing here, just to demonstrate scrolling down.</footer>
+    
+    
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="../dist/jquery-horizontal-scroll.min.js"></script>
+    <script>
+      $( document ).ready(function() {
+        
+        $( '.horizontal-scroll' ).horizontalScroll({
+          containerHeight: "300vh"
+        });
+        
+      });
+    </script>
+  </body>
+</html>
