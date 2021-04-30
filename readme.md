@@ -51,10 +51,10 @@ $( '.horizontal-scroll' ).horizontalScroll({
 
 You shouldn't need to add these additional options. In most cases they're auto detected. But I put them here just in case someone wanted to override the defaults. 
 
-**containerHeight** - The height of the container, which requires more scrolling.
-**itemsHeight** - Automatically based on the tallest item it finds, but you can set it yourself. An overflow hidden property will chop off anything protruding if you set it smaller than an element.
-**width** - Width of the strip of items. Automatically based on number of items multipled by the width of the main container. You can override here.
-**paddingTop** - Auto detects if you had padding on the container. But this will affect the point in which the stickiness catches.
-**paddingLeft** - Auto detects, but if you had padding-left on the container, it will ensure it carries over from the starting location of the film strip.
+* **containerHeight** - The height of the container, which requires more scrolling.
+* **itemsHeight** - Automatically based on the tallest item it finds, but you can set it yourself. An overflow hidden property will chop off anything protruding if you set it smaller than an element.
+* **width** - Width of the strip of items. Automatically based on number of items multipled by the width of the main container. You can override here.
+* **paddingTop** - Auto detects if you had padding on the container. But this will affect the point in which the stickiness catches.
+* **paddingLeft** - Auto detects, but if you had padding-left on the container, it will ensure it carries over from the starting location of the film strip.
 
 MIT License
