@@ -8,7 +8,7 @@ Ready to download? Get the minified JS file here:
 
 #### Usage:
 
-The gallery need to be an HTML element with some child elements one-level down. It will take those first-level children, and automatically adjust them into a filmstrip element with all of the correct CSS, so there is little to do other than add the HTML. The child elements can be images, or div tags, or whatever. The film strip's height will be based on the tallest element it finds. 
+The gallery needs to be an HTML element with some child elements one-level down. It will take those first-level children, and automatically adjust them into a filmstrip element with all of the correct CSS, so there is little to do other than add the HTML. The child elements can be images, or div tags, or whatever. The film strip's height will be based on the tallest element it finds. 
 
 
 #### Example HTML:
